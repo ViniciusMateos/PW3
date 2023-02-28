@@ -22,5 +22,16 @@ export class AppComponent {
     return this.nome + this.sobrenome;
   }
 
+    ocultar = true;
+  obterAlerta()
+  {
+    alert("Está desaparecida 'O' \n Quem? \n nome: a boa \n idade: de hoje");
+  }
+
+  exibirOcultar()
+  {
+    this.ocultar = !this.ocultar;
+  }
+
 
 }

@@ -1,5 +1,12 @@
 <h1>
 
-  <img src={{logo}}>
+  <img src={{logo}}/>
 
+<img [src] ="logo"/>
 </h1>
+
+<button (click)="obterAlerta()">Exibir mensagem</button>
+
+<p [hidden]="ocultar">Hoje é terça-feira</p>
+
+<button (click)="exibirOcultar()">Mostrar texto</button>
